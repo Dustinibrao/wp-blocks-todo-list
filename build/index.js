@@ -1,0 +1,1 @@
+!function(){"use strict";var i=window.wp.i18n;alert((0,i.__)("Loaded!"))}();

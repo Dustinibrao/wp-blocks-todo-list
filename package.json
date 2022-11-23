@@ -1,0 +1,17 @@
+{
+	"name": "wp-blocks-course-plugin-boilerplate",
+	"version": "1.0.0",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"start": "wp-scripts start"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"@wordpress/i18n": "^4.22.0",
+		"@wordpress/scripts": "^24.6.0"
+	}
+}
