@@ -1,1 +1,30 @@
-.editor-styles-wrapper{background-color:#777!important}
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+.wp-block-blocks-course-todo-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.wp-block-blocks-course-todo-list ul li {
+  margin-bottom: 15px;
+}
+.wp-block-blocks-course-todo-list ul li.todo-completed {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+.wp-block-blocks-course-todo-list ul li label {
+  font-size: 16px;
+}
+.wp-block-blocks-course-todo-list .addtodo-form {
+  display: flex;
+  margin-top: 30px;
+}
+.wp-block-blocks-course-todo-list .addtodo-form input {
+  height: 36px;
+}
+.wp-block-blocks-course-todo-list .addtodo-form button {
+  margin-left: 20px;
+}
+
+/*# sourceMappingURL=index.css.map*/
