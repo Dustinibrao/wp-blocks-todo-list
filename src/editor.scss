@@ -1,3 +1,33 @@
-.editor-styles-wrapper {
-	background-color: #777 !important;
+.wp-block-blocks-course-todo-list {
+	ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+
+		li {
+			margin-bottom: 15px;
+
+			&.todo-completed {
+				opacity: 0.5;
+				text-decoration: line-through;
+			}
+
+			label {
+				font-size: 16px;
+			}
+		}
+	}
+
+	.addtodo-form {
+		display: flex;
+		margin-top: 30px;
+
+		input {
+			height: 36px;
+		}
+
+		button {
+			margin-left: 20px;
+		}
+	}
 }
